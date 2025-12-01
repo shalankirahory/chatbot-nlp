@@ -1,0 +1,24 @@
+{
+  "intents": [
+    {
+      "intent": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Is anyone there?"],
+      "responses": ["Hello! How can I assist you today?", "Hi there! What can I help you with?"]
+    },
+    {
+      "intent": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you", "Take care"],
+      "responses": ["Goodbye! Have a great day!", "See you soon!"]
+    },
+    {
+      "intent": "thanks",
+      "patterns": ["Thanks", "Thank you", "I appreciate it"],
+      "responses": ["You're welcome!", "Glad to help!"]
+    },
+    {
+      "intent": "college_info",
+      "patterns": ["Tell me about the college", "What courses do you have?", "Programs offered"],
+      "responses": ["We offer BSc, MSc and PhD in Computer Science and related fields."]
+    }
+  ]
+}
